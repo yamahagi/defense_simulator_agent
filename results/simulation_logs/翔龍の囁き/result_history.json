@@ -1,0 +1,180 @@
+[
+  {
+    "turn": 0,
+    "name": "Naha Air & Naval Base",
+    "thought": "私は防衛拠点「Naha Air & Naval Base」の司令官です。現在、敵国が嘉手納空港を攻撃対象として示威行動を行っていますが、過去の履歴において敵が実際に攻撃を行ったという情報はありません。このため、現時点でのdefend行動は行わず、武器の送付も必要ないと判断しました。したがって、現時点ではidleを選択します。",
+    "action": "idle",
+    "plan": [],
+    "result": "Naha Air & Naval Base did nothing."
+  },
+  {
+    "turn": 0,
+    "name": "Amami Forward Base",
+    "thought": "私は防衛拠点「Amami Forward Base」の司令官です。現在、敵国の中国が嘉手納空港を攻撃対象として示威行動を行っている状況です。しかし、過去の履歴において、敵が実際に攻撃を行ったという情報はありません。私は現在のところ、他の基地に武器を送る必要性も感じていません。したがって、現時点ではidleを選択します。",
+    "action": "idle",
+    "plan": [],
+    "result": "Amami Forward Base did nothing."
+  },
+  {
+    "turn": 0,
+    "name": "Sasebo Naval Base",
+    "thought": "私は防衛拠点「Sasebo Naval Base」の司令官です。現在、敵国の中国が嘉手納空港を攻撃対象として示威行動を行っている状況です。過去の履歴において、敵が実際に攻撃を行ったという情報はありません。そのため、現時点での防衛攻撃（defend）は行わず、嘉手納空港への武器の送付（transfer）を考慮します。嘉手納空港は敵の攻撃目標であり、強化が必要と判断しました。",
+    "action": "transfer",
+    "plan": [
+      [
+        "Kadena Air-Sea Hub (US)",
+        "Atago-class Aegis",
+        2
+      ],
+      [
+        "Kadena Air-Sea Hub (US)",
+        "Izumo-class Destroyer",
+        1
+      ],
+      [
+        "Kadena Air-Sea Hub (US)",
+        "Oyashio-class Submarine",
+        2
+      ]
+    ],
+    "result": "Atago-class Aegis enqueued to Kadena Air-Sea Hub (US) (arrives in 6 turns) \nAtago-class Aegis enqueued to Kadena Air-Sea Hub (US) (arrives in 6 turns) \nIzumo-class Destroyer enqueued to Kadena Air-Sea Hub (US) (arrives in 7 turns) \nOyashio-class Submarine enqueued to Kadena Air-Sea Hub (US) (arrives in 6 turns) \nOyashio-class Submarine enqueued to Kadena Air-Sea Hub (US) (arrives in 6 turns) \n"
+  },
+  {
+    "turn": 0,
+    "name": "Kadena Air-Sea Hub (US)",
+    "thought": "私は防衛拠点「Kadena Air-Sea Hub (US)」の司令官です。現在、敵国の中国が嘉手納空港を攻撃対象として示威行動を行っている状況ですが、過去の履歴において敵が実際に攻撃を行ったという情報はありません。したがって、現時点ではdefend行動を行うことができません。また、他の基地からの武器の移動を検討する必要がある場合、何もしないことが規則です。したがって、現時点ではidleを選択します。",
+    "action": "idle",
+    "plan": [],
+    "result": "Kadena Air-Sea Hub (US) did nothing."
+  },
+  {
+    "turn": 0,
+    "name": "Kanoya Anti-Sub Base",
+    "thought": "私は防衛拠点「Kanoya Anti-Sub Base」の司令官です。現在、敵国の中国が嘉手納空港を攻撃対象として示威行動を行っている状況です。過去の履歴において、敵が実際に攻撃を行ったという情報はありませんので、こちらからの防衛攻撃（defend）は行うことができません。ただし、嘉手納空港が攻撃対象であるため、武器の送付（transfer）を考慮することが可能です。敵の攻撃に備えて、嘉手納空港への防衛力を強化するために、こちらの武器を送付することを決定します。",
+    "action": "transfer",
+    "plan": [
+      [
+        "Kadena Air-Sea Hub (US)",
+        "Oyashio-class Submarine",
+        5
+      ]
+    ],
+    "result": "Oyashio-class Submarine enqueued to Kadena Air-Sea Hub (US) (arrives in 5 turns) \nOyashio-class Submarine enqueued to Kadena Air-Sea Hub (US) (arrives in 5 turns) \nOyashio-class Submarine enqueued to Kadena Air-Sea Hub (US) (arrives in 5 turns) \nOyashio-class Submarine enqueued to Kadena Air-Sea Hub (US) (arrives in 5 turns) \nOyashio-class Submarine enqueued to Kadena Air-Sea Hub (US) (arrives in 5 turns) \n"
+  },
+  {
+    "turn": 0,
+    "name": "Chinese Task Force",
+    "thought": "私は敵ユニット「Chinese Task Force」の司令官です。現在、嘉手納空港とその周辺産業施設への示威行動を行うことが目的です。私の部隊は、嘉手納空港を目標とした攻撃を行うための準備が整っており、使用可能な武器が射程内にあります。敵の防空能力を混乱させるために、ジャマーを使用しつつ、攻撃を行うことが戦術的に有効です。",
+    "action": "attack",
+    "plan": [
+      [
+        "F-35B",
+        "Chinese Jet",
+        3
+      ],
+      [
+        "Atago-class Aegis",
+        "Chinese Submarine",
+        1
+      ],
+      [
+        "F-35B",
+        "Chinese Drone",
+        1
+      ]
+    ],
+    "result": "Chinese Task Force attacked F-35B of Kadena Air-Sea Hub (US), destroyed 3\nChinese Task Force attacked Atago-class Aegis of Kadena Air-Sea Hub (US), destroyed 0\nChinese Task Force jammed Kadena Air-Sea Hub (US) weapons using Chinese Drone\n"
+  },
+  {
+    "turn": 1,
+    "name": "Naha Air & Naval Base",
+    "thought": "私は防衛拠点「Naha Air & Naval Base」の司令官です。過去の履歴において、中国のタスクフォースが嘉手納空港を対象に攻撃を行ったことが確認されました。これにより、私は防衛攻撃（defend）を行うことが可能です。現在の敵ユニットの情報から、特に注意すべきは中国のジェット機と潜水艦です。これらの脅威を減少させるために、F-35Bや潜水艦を用いて攻撃を行うことが適切です。武器の使用は合計で5までに制限されているため、慎重に計画します。",
+    "action": "defend",
+    "plan": [
+      [
+        "Chinese Jet",
+        "F-35B",
+        3
+      ],
+      [
+        "Chinese Submarine",
+        "Oyashio-class Submarine",
+        2
+      ]
+    ],
+    "result": "Naha Air & Naval Base attacked Chinese Jet, destroyed 4\nNaha Air & Naval Base attacked Chinese Submarine, destroyed 1\n"
+  },
+  {
+    "turn": 1,
+    "name": "Amami Forward Base",
+    "thought": "私は防衛拠点「Amami Forward Base」の司令官です。過去の履歴において、敵のChinese Task Forceが嘉手納空港を攻撃したことが確認されています。これにより、私は防衛攻撃（defend）を行うことが可能です。しかし、現在のところ、私の基地のOyashio-class Submarineは敵の範囲外にあるため、直接的な攻撃はできません。したがって、他の基地への武器の送付（transfer）が適切です。特に嘉手納空港は攻撃の目標となっているため、武器の強化が必要です。",
+    "action": "transfer",
+    "plan": [
+      [
+        "Kadena Air-Sea Hub (US)",
+        "Oyashio-class Submarine",
+        3
+      ]
+    ],
+    "result": "Oyashio-class Submarine enqueued to Kadena Air-Sea Hub (US) (arrives in 3 turns) \nOyashio-class Submarine enqueued to Kadena Air-Sea Hub (US) (arrives in 3 turns) \nOyashio-class Submarine enqueued to Kadena Air-Sea Hub (US) (arrives in 3 turns) \n"
+  },
+  {
+    "turn": 1,
+    "name": "Sasebo Naval Base",
+    "thought": "私は防衛拠点「Sasebo Naval Base」の司令官です。過去の履歴において、敵のChinese Task Forceが嘉手納空港を攻撃したことが確認されています。これにより、防衛攻撃（defend）を行うことが可能です。しかし、現在のところ、私の基地のすべての武器は敵の範囲外にあるため、直接的な攻撃はできません。そのため、武器の送付（transfer）が適切です。嘉手納空港は攻撃の目標となっているため、さらに武器の強化が必要です。",
+    "action": "transfer",
+    "plan": [
+      [
+        "Kadena Air-Sea Hub (US)",
+        "Atago-class Aegis",
+        2
+      ],
+      [
+        "Kadena Air-Sea Hub (US)",
+        "Izumo-class Destroyer",
+        1
+      ],
+      [
+        "Kadena Air-Sea Hub (US)",
+        "Oyashio-class Submarine",
+        2
+      ]
+    ],
+    "result": "Atago-class Aegis enqueued to Kadena Air-Sea Hub (US) (arrives in 6 turns) \nAtago-class Aegis enqueued to Kadena Air-Sea Hub (US) (arrives in 6 turns) \nIzumo-class Destroyer enqueued to Kadena Air-Sea Hub (US) (arrives in 7 turns) \nOyashio-class Submarine enqueued to Kadena Air-Sea Hub (US) (arrives in 6 turns) \nOyashio-class Submarine enqueued to Kadena Air-Sea Hub (US) (arrives in 6 turns) \n"
+  },
+  {
+    "turn": 1,
+    "name": "Kadena Air-Sea Hub (US)",
+    "thought": "私は防衛拠点「Kadena Air-Sea Hub (US)」の司令官です。過去の履歴において、敵のChinese Task Forceが嘉手納空港を攻撃したことが確認されています。これにより、私は防衛攻撃（defend）を行うことが可能です。現在、敵のChinese Droneがジャミングを行っており、またChinese JetとChinese Submarineが攻撃の脅威となっています。特に、Atago-class Aegisは射程内にあるため、これを活用して敵の潜水艦を攻撃し、F-35Bを使用してジェット機を攻撃することで、敵の脅威を減少させることができます。武器の使用は合計で5までに制限されているため、慎重に計画します。",
+    "action": "defend",
+    "plan": [
+      [
+        "Chinese Submarine",
+        "Atago-class Aegis",
+        1
+      ],
+      [
+        "Chinese Jet",
+        "F-35B",
+        4
+      ]
+    ],
+    "result": "Kadena Air-Sea Hub (US) attacked Chinese Submarine, destroyed 1\nKadena Air-Sea Hub (US) attacked Chinese Jet, destroyed 5\n"
+  },
+  {
+    "turn": 1,
+    "name": "Kanoya Anti-Sub Base",
+    "thought": "私は防衛拠点「Kanoya Anti-Sub Base」の司令官です。過去の履歴において、敵のChinese Task Forceが嘉手納空港を攻撃したことが確認されており、これにより防衛攻撃（defend）を行うことが可能となっています。しかし、私の基地には現在アクティブな武器がありません。また、私が行うことができるのは他の基地への武器の送付（transfer）のみです。しかし、既に嘉手納空港への武器の送付が行われており、今のところ私の基地から追加で送る必要はないと判断しました。したがって、現時点ではidleを選択します。",
+    "action": "idle",
+    "plan": [],
+    "result": "Kanoya Anti-Sub Base did nothing."
+  },
+  {
+    "turn": 1,
+    "name": "Chinese Task Force",
+    "thought": "あらかじめ設定した退却ラインを超えたので退却しなければなりません",
+    "action": "retreat",
+    "plan": [],
+    "result": "退却"
+  }
+]

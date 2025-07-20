@@ -1,0 +1,32 @@
+{
+  "name": "Chinese Assault Fleet",
+  "location": {
+    "lat": 27.5,
+    "lon": 129.0
+  },
+  "target_base": "Amami Forward Base",
+  "retreating": true,
+  "current_cost": 170400,
+  "retreat_cost_threshold": 500000,
+  "weapon_stock": {
+    "J-20 Fighter": {
+      "total": 24,
+      "destroyed": 3,
+      "active": 21
+    },
+    "Type 055 Destroyer": {
+      "total": 6,
+      "destroyed": 1,
+      "active": 5
+    },
+    "HQ-9 SAM": {
+      "total": 8,
+      "destroyed": 0,
+      "active": 8
+    }
+  },
+  "ammo_stock": {
+    "IntermediateRangeMissile": 788,
+    "AntiAirMissile": 394
+  }
+}

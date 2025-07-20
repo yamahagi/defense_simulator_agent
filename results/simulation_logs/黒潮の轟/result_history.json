@@ -1,0 +1,313 @@
+[
+  {
+    "turn": 0,
+    "name": "Naha Air & Naval Base",
+    "thought": "私は那覇空港及び那覇海軍基地の司令官です。現在、中国のタスクフォースが那覇をターゲットにしている状況です。過去の履歴に攻撃（attack）の記録がないため、こちらからの防衛攻撃は行えません。しかし、敵が攻撃を開始する可能性があるため、他の基地への武器の送付を検討します。しかしながら、現状では具体的な送付先や必要性が明確でないため、無駄な動きは避けるべきです。よって、現時点では行動を控えます。",
+    "action": "idle",
+    "plan": [],
+    "result": "Naha Air & Naval Base did nothing."
+  },
+  {
+    "turn": 0,
+    "name": "Amami Forward Base",
+    "thought": "私はAmami Forward Baseの司令官です。現在、中国のタスクフォースが那覇をターゲットにしている状況です。過去の履歴に攻撃（attack）の記録がないため、こちらからの防衛攻撃は行えません。しかし、敵が攻撃を開始する可能性があるため、那覇空港及び那覇海軍基地への武器の送付を検討します。那覇は現在、敵の攻撃範囲内にあり、攻撃を受ける可能性が高いです。したがって、那覇の防衛力を強化するため、Oyashio-class Submarineを送付することを決定しました。",
+    "action": "transfer",
+    "plan": [
+      [
+        "Naha Air & Naval Base",
+        "Oyashio-class Submarine",
+        5
+      ]
+    ],
+    "result": "Oyashio-class Submarine enqueued to Naha Air & Naval Base (arrives in 3 turns) \nOyashio-class Submarine enqueued to Naha Air & Naval Base (arrives in 3 turns) \nOyashio-class Submarine enqueued to Naha Air & Naval Base (arrives in 3 turns) \nOyashio-class Submarine enqueued to Naha Air & Naval Base (arrives in 3 turns) \nOyashio-class Submarine enqueued to Naha Air & Naval Base (arrives in 3 turns) \n"
+  },
+  {
+    "turn": 0,
+    "name": "Sasebo Naval Base",
+    "thought": "私はSasebo Naval Baseの司令官です。現在、中国のタスクフォースが那覇をターゲットにしている状況ですが、過去の履歴に攻撃（attack）の記録がないため、こちらからの防衛攻撃は行えません。那覇基地が攻撃対象となっているため、防衛強化を図るべきです。現状では、那覇基地への武器の送付を行い、防衛力を高めることが最優先です。Izumo-class Destroyerを那覇基地に送付し、防衛力を強化することを決定しました。",
+    "action": "transfer",
+    "plan": [
+      [
+        "Naha Air & Naval Base",
+        "Izumo-class Destroyer",
+        2
+      ]
+    ],
+    "result": "Izumo-class Destroyer enqueued to Naha Air & Naval Base (arrives in 7 turns) \nIzumo-class Destroyer enqueued to Naha Air & Naval Base (arrives in 7 turns) \n"
+  },
+  {
+    "turn": 0,
+    "name": "Kadena Air-Sea Hub (US)",
+    "thought": "私はKadena Air-Sea Hub (US)の司令官です。現在、中国のタスクフォースが那覇をターゲットにしている状況ですが、過去の履歴に攻撃（attack）の記録がないため、こちらからの防衛攻撃は行えません。那覇基地が攻撃対象となっているため、防衛強化を図るべきです。しかし、現状の情報では、那覇基地への具体的な武器の送付がすでに行われており、私の基地から追加で送付する必要は明確ではないため、無駄な動きは避けるべきです。したがって、現時点では行動を控えます。",
+    "action": "idle",
+    "plan": [],
+    "result": "Kadena Air-Sea Hub (US) did nothing."
+  },
+  {
+    "turn": 0,
+    "name": "Kanoya Anti-Sub Base",
+    "thought": "私はKanoya Anti-Sub Baseの司令官です。現在、中国のタスクフォースが那覇をターゲットにしている状況です。過去の履歴に攻撃（attack）の記録がないため、こちらからの防衛攻撃は行えません。しかし、敵が攻撃を開始する可能性があるため、那覇基地の防衛力を強化するために武器を送ることを検討します。私の基地にはOyashio-class Submarineがあり、これを那覇基地に送付することで、潜水艦戦力を強化することができます。したがって、Oyashio-class Submarineを那覇基地に送付することを決定しました。",
+    "action": "transfer",
+    "plan": [
+      [
+        "Naha Air & Naval Base",
+        "Oyashio-class Submarine",
+        5
+      ]
+    ],
+    "result": "Oyashio-class Submarine enqueued to Naha Air & Naval Base (arrives in 5 turns) \nOyashio-class Submarine enqueued to Naha Air & Naval Base (arrives in 5 turns) \nOyashio-class Submarine enqueued to Naha Air & Naval Base (arrives in 5 turns) \nOyashio-class Submarine enqueued to Naha Air & Naval Base (arrives in 5 turns) \nOyashio-class Submarine enqueued to Naha Air & Naval Base (arrives in 5 turns) \n"
+  },
+  {
+    "turn": 0,
+    "name": "Chinese Task Force",
+    "thought": "私はChinese Task Forceの司令官です。現在、我々の目的は那覇空港及び那覇海軍基地への圧力を高め、中国の海洋権益を強化することです。敵の那覇基地にはF-35B、Izumo-class Destroyer、Oyashio-class Submarineが配備されており、いずれも我々の射程内にあります。特に、敵のF-35Bは航空戦力として脅威です。このため、まずは敵の航空戦力を削ぐことを優先し、F-35Bを攻撃します。これにより、我々の空の優位性を確保することができます。",
+    "action": "attack",
+    "plan": [
+      [
+        "F-35B",
+        "F-35B",
+        5
+      ]
+    ],
+    "result": "Chinese Task Force attacked F-35B of Naha Air & Naval Base, destroyed 5\n"
+  },
+  {
+    "turn": 1,
+    "name": "Naha Air & Naval Base",
+    "thought": "私は那覇空港及び那覇海軍基地の司令官です。過去の履歴でChinese Task Forceが攻撃を行ったため、防衛攻撃を行うことが可能です。敵の主要な航空戦力であるF-35Bが脅威となっていますが、現在の我々のF-35Bは既にすべて破壊されています。したがって、我々のIzumo-class DestroyerとOyashio-class Submarineを使用して敵のF-35BとIzumo-class Destroyerに対して防衛攻撃を行います。これにより、敵の航空戦力と海上戦力の減少を目指します。",
+    "action": "defend",
+    "plan": [
+      [
+        "F-35B",
+        "Izumo-class Destroyer",
+        1
+      ],
+      [
+        "Izumo-class Destroyer",
+        "Izumo-class Destroyer",
+        1
+      ],
+      [
+        "F-35B",
+        "Oyashio-class Submarine",
+        1
+      ],
+      [
+        "Izumo-class Destroyer",
+        "Oyashio-class Submarine",
+        1
+      ],
+      [
+        "Oyashio-class Submarine",
+        "Oyashio-class Submarine",
+        1
+      ]
+    ],
+    "result": "Naha Air & Naval Base attacked F-35B, destroyed 1\nNaha Air & Naval Base attacked Izumo-class Destroyer, destroyed 0\nNaha Air & Naval Base attacked F-35B, destroyed 2\nNaha Air & Naval Base attacked Izumo-class Destroyer, destroyed 1\nNaha Air & Naval Base attacked Oyashio-class Submarine, destroyed 1\n"
+  },
+  {
+    "turn": 1,
+    "name": "Amami Forward Base",
+    "thought": "私はAmami Forward Baseの司令官です。現在、過去の履歴においてChinese Task Forceが那覇基地を攻撃したため、我々は防衛攻撃を行うことが可能です。ただし、那覇基地への輸送が進行中であり、現在の段階では那覇基地の防衛を強化するために動く必要はありません。私の基地のOyashio-class Submarineは射程外にあるため、直接攻撃は行えません。したがって、現状では行動を控えます。",
+    "action": "idle",
+    "plan": [],
+    "result": "Amami Forward Base did nothing."
+  },
+  {
+    "turn": 1,
+    "name": "Sasebo Naval Base",
+    "thought": "私はSasebo Naval Baseの司令官です。過去の履歴においてChinese Task Forceが那覇基地を攻撃したため、こちらも防衛攻撃を行うことが可能です。しかし、私の基地にあるAtago-class AegisとOyashio-class Submarineはいずれも敵の射程外にあります。そのため、現時点では防衛攻撃を行うことができません。この状況では、那覇基地への追加の武器送付を行うか検討する必要がありますが、すでに他の基地から送付が進行中であり、さらに武器を送る必要はないと判断します。したがって、現時点では行動を控えます。",
+    "action": "idle",
+    "plan": [],
+    "result": "Sasebo Naval Base did nothing."
+  },
+  {
+    "turn": 1,
+    "name": "Kadena Air-Sea Hub (US)",
+    "thought": "私はKadena Air-Sea Hub (US)の司令官です。過去の履歴でChinese Task Forceが攻撃を行ったため、防衛攻撃を行うことが可能です。現在、私の基地のF-35BとAtago-class Aegisは敵の射程内にあります。敵のF-35BとIzumo-class Destroyerは特に脅威です。したがって、これらの敵をターゲットにして防衛攻撃を行うことが最も効果的です。私の基地のF-35Bを使って敵のF-35BとIzumo-class Destroyerに対して攻撃を行います。",
+    "action": "defend",
+    "plan": [
+      [
+        "F-35B",
+        "F-35B",
+        2
+      ],
+      [
+        "Izumo-class Destroyer",
+        "F-35B",
+        2
+      ],
+      [
+        "F-35B",
+        "Atago-class Aegis",
+        1
+      ]
+    ],
+    "result": "Kadena Air-Sea Hub (US) attacked F-35B, destroyed 2\nKadena Air-Sea Hub (US) attacked Izumo-class Destroyer, destroyed 1\nKadena Air-Sea Hub (US) attacked F-35B, destroyed 2\n"
+  },
+  {
+    "turn": 1,
+    "name": "Kanoya Anti-Sub Base",
+    "thought": "私はKanoya Anti-Sub Baseの司令官です。現在、中国のタスクフォースが那覇をターゲットにして攻撃を行いました。過去の履歴においても攻撃の記録があるため、防衛攻撃を行うことが可能です。しかし、私の基地にはOyashio-class Submarineがなく、武器はTorpedoのみです。Torpedoは直接的な攻撃手段として使用できる潜水艦が必要であり、他の手段がないため、防衛攻撃は行えません。したがって、現時点では行動を控えます。",
+    "action": "idle",
+    "plan": [],
+    "result": "Kanoya Anti-Sub Base did nothing."
+  },
+  {
+    "turn": 1,
+    "name": "Chinese Task Force",
+    "thought": "攻撃不可能なため進軍する",
+    "action": "move_toward_target",
+    "plan": [],
+    "result": "moved from 25.8467,127.4221 to 25.963640334333476,127.49686168534126"
+  },
+  {
+    "turn": 2,
+    "name": "Naha Air & Naval Base",
+    "thought": "私は那覇空港及び那覇海軍基地の司令官です。過去の履歴でChinese Task Forceが攻撃を行ったため、防衛攻撃を行うことが可能です。現在、敵のF-35BとIzumo-class Destroyerが脅威となっています。これらの敵ユニットに対して、我々のIzumo-class DestroyerとOyashio-class Submarineを使用して防衛攻撃を行います。これにより、敵の航空戦力と海上戦力の減少を目指します。",
+    "action": "defend",
+    "plan": [
+      [
+        "F-35B",
+        "Izumo-class Destroyer",
+        2
+      ],
+      [
+        "Izumo-class Destroyer",
+        "Izumo-class Destroyer",
+        2
+      ],
+      [
+        "Oyashio-class Submarine",
+        "Oyashio-class Submarine",
+        1
+      ]
+    ],
+    "result": "Naha Air & Naval Base attacked F-35B, destroyed 4\nNaha Air & Naval Base attacked Izumo-class Destroyer, destroyed 1\nNaha Air & Naval Base attacked Oyashio-class Submarine, destroyed 1\n"
+  },
+  {
+    "turn": 2,
+    "name": "Amami Forward Base",
+    "thought": "私はAmami Forward Baseの司令官です。現在、Chinese Task Forceが那覇基地を攻撃しており、過去の履歴においても攻撃の記録があるため、防衛攻撃を行うことが可能です。しかし、私の基地のOyashio-class Submarineは射程外にあるため、直接攻撃は行えません。さらに、既に那覇基地への武器輸送を行っており、追加での行動は必要ないと判断します。したがって、現時点では行動を控えます。",
+    "action": "idle",
+    "plan": [],
+    "result": "Amami Forward Base did nothing."
+  },
+  {
+    "turn": 2,
+    "name": "Sasebo Naval Base",
+    "thought": "私はSasebo Naval Baseの司令官です。過去の履歴においてChinese Task Forceが那覇基地を攻撃したため、防衛攻撃を行うことが可能です。しかし、私の基地にあるAtago-class AegisとOyashio-class Submarineはいずれも敵の射程外にあります。そのため、現時点では防衛攻撃を行うことができません。この状況では、那覇基地への追加の武器送付を行うか検討する必要がありますが、すでに他の基地から送付が進行中であり、さらに武器を送る必要はないと判断します。したがって、現時点では行動を控えます。",
+    "action": "idle",
+    "plan": [],
+    "result": "Sasebo Naval Base did nothing."
+  },
+  {
+    "turn": 2,
+    "name": "Kadena Air-Sea Hub (US)",
+    "thought": "私はKadena Air-Sea Hub (US)の司令官です。過去の履歴でChinese Task Forceが攻撃を行ったため、防衛攻撃を行うことが可能です。現在、敵のF-35BとIzumo-class Destroyerが脅威となっています。これらの敵ユニットに対して、我々のF-35BとAtago-class Aegisを使用して防衛攻撃を行います。敵のF-35Bが特に脅威であるため、これを優先して攻撃します。",
+    "action": "defend",
+    "plan": [
+      [
+        "F-35B",
+        "F-35B",
+        2
+      ],
+      [
+        "Izumo-class Destroyer",
+        "F-35B",
+        2
+      ],
+      [
+        "F-35B",
+        "Atago-class Aegis",
+        1
+      ]
+    ],
+    "result": "Kadena Air-Sea Hub (US) attacked F-35B, destroyed 2\nKadena Air-Sea Hub (US) attacked Izumo-class Destroyer, destroyed 0\nKadena Air-Sea Hub (US) attacked F-35B, destroyed 2\n"
+  },
+  {
+    "turn": 2,
+    "name": "Kanoya Anti-Sub Base",
+    "thought": "私はKanoya Anti-Sub Baseの司令官です。過去の履歴でChinese Task Forceが那覇基地を攻撃しているため、防衛攻撃を行うことが可能です。しかし、私の基地には戦闘に必要な兵器がなく、Torpedoのみがありますが、使用するための潜水艦がありません。このため、防衛攻撃を行うことができません。また、那覇基地への武器の移動もすでに他の基地から進行中であり、私の基地から追加の移動は必要ないと判断します。したがって、現時点では行動を控えます。",
+    "action": "idle",
+    "plan": [],
+    "result": "Kanoya Anti-Sub Base did nothing."
+  },
+  {
+    "turn": 2,
+    "name": "Chinese Task Force",
+    "thought": "攻撃不可能なため進軍する",
+    "action": "move_toward_target",
+    "plan": [],
+    "result": "moved from 25.963640334333476,127.49686168534126 to 26.08054219446744,127.57177209895005"
+  },
+  {
+    "turn": 3,
+    "name": "Naha Air & Naval Base",
+    "thought": "私は那覇空港及び那覇海軍基地の司令官です。過去の履歴でChinese Task Forceが攻撃を行ったため、防衛攻撃を行うことが可能です。現在、敵のF-35Bはすでに全滅していますが、Izumo-class DestroyerとOyashio-class Submarineがまだ脅威です。これらの敵ユニットに対して、我々のIzumo-class DestroyerとOyashio-class Submarineを使用して防衛攻撃を行います。これにより、敵の海上戦力のさらなる減少を目指します。",
+    "action": "defend",
+    "plan": [
+      [
+        "Izumo-class Destroyer",
+        "Izumo-class Destroyer",
+        2
+      ],
+      [
+        "Oyashio-class Submarine",
+        "Izumo-class Destroyer",
+        1
+      ],
+      [
+        "Izumo-class Destroyer",
+        "Oyashio-class Submarine",
+        1
+      ],
+      [
+        "Oyashio-class Submarine",
+        "Oyashio-class Submarine",
+        1
+      ]
+    ],
+    "result": "Naha Air & Naval Base attacked Izumo-class Destroyer, destroyed 0\nNaha Air & Naval Base attacked Oyashio-class Submarine, destroyed 2\nNaha Air & Naval Base attacked Izumo-class Destroyer, destroyed 0\nNaha Air & Naval Base attacked Oyashio-class Submarine, destroyed 1\n"
+  },
+  {
+    "turn": 3,
+    "name": "Amami Forward Base",
+    "thought": "私はAmami Forward Baseの司令官です。過去の履歴においてChinese Task Forceが那覇基地を攻撃しているため、防衛攻撃を行うことが可能です。しかし、私の基地のOyashio-class Submarineは依然として射程外にあり、直接攻撃は行えません。また、既に那覇基地への武器輸送が進行中であり、追加での行動は必要ないと判断します。したがって、現時点では行動を控えます。",
+    "action": "idle",
+    "plan": [],
+    "result": "Amami Forward Base did nothing."
+  },
+  {
+    "turn": 3,
+    "name": "Sasebo Naval Base",
+    "thought": "私はSasebo Naval Baseの司令官です。過去の履歴においてChinese Task Forceが那覇基地を攻撃したため、防衛攻撃を行うことが可能です。しかし、私の基地にあるAtago-class AegisとOyashio-class Submarineはいずれも敵の射程外にあります。そのため、防衛攻撃を行うことができません。この状況では、那覇基地への追加の武器送付を行うか検討する必要がありますが、すでに他の基地から送付が進行中であり、さらに武器を送る必要はないと判断します。したがって、現時点では行動を控えます。",
+    "action": "idle",
+    "plan": [],
+    "result": "Sasebo Naval Base did nothing."
+  },
+  {
+    "turn": 3,
+    "name": "Kadena Air-Sea Hub (US)",
+    "thought": "私はKadena Air-Sea Hub (US)の司令官です。過去の履歴でChinese Task Forceが攻撃を行ったため、防衛攻撃を行うことが可能です。現在、敵のF-35Bはすでに全滅しており、Izumo-class DestroyerとOyashio-class Submarineも全滅しています。実際に脅威となる敵ユニットは存在しないため、現時点での防衛攻撃は不要です。したがって、行動を控え、状況を見守ります。",
+    "action": "idle",
+    "plan": [],
+    "result": "Kadena Air-Sea Hub (US) did nothing."
+  },
+  {
+    "turn": 3,
+    "name": "Kanoya Anti-Sub Base",
+    "thought": "私はKanoya Anti-Sub Baseの司令官です。過去の履歴でChinese Task Forceが那覇基地を攻撃しましたが、現在の情報では敵の全ての武器が全滅しており、脅威となる敵ユニットは存在しません。このため、防衛攻撃や武器の移動は不要です。さらに他の基地からの移動を希望しても、現状の戦況には影響がないと判断します。したがって、現時点では行動を控え、状況の変化を見守ります。",
+    "action": "idle",
+    "plan": [],
+    "result": "Kanoya Anti-Sub Base did nothing."
+  },
+  {
+    "turn": 3,
+    "name": "Chinese Task Force",
+    "thought": "あらかじめ設定した退却ラインを超えたので退却しなければなりません",
+    "action": "retreat",
+    "plan": [],
+    "result": "退却"
+  }
+]

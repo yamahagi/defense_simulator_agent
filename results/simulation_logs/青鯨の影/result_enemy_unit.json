@@ -1,0 +1,27 @@
+{
+  "name": "Chinese Naval Task Force",
+  "location": {
+    "lat": 28.299999999999994,
+    "lon": 129.5
+  },
+  "target_base": "Amami Forward Base",
+  "retreating": false,
+  "current_cost": 446000,
+  "retreat_cost_threshold": 500000,
+  "weapon_stock": {
+    "Type 052D Destroyer": {
+      "total": 6,
+      "destroyed": 3,
+      "active": 3
+    },
+    "Stealth UAV": {
+      "total": 10,
+      "destroyed": 10,
+      "active": 0
+    }
+  },
+  "ammo_stock": {
+    "LongRangeMissile": 284,
+    "MediumRangeMissile": 180
+  }
+}

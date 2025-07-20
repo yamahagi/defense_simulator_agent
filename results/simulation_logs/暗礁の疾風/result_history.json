@@ -1,0 +1,76 @@
+[
+  {
+    "turn": 0,
+    "name": "Naha Air & Naval Base",
+    "thought": "私はNaha Air & Naval Baseの司令官です。現在、敵国がKanoya Anti-Sub Baseをターゲットにしており、敵の潜水艦部隊はすでに攻撃範囲内に入っているため、Kanoya基地への攻撃が予想されます。しかし、過去の履歴には敵の具体的な攻撃行動（attack）が記録されていないため、防衛攻撃を行う条件がまだ整っていません。したがって、現時点ではKanoya Anti-Sub Baseへの武器送付を行い、備えるべきです。",
+    "action": "transfer",
+    "plan": [
+      [
+        "Kanoya Anti-Sub Base",
+        "Oyashio-class Submarine",
+        3
+      ]
+    ],
+    "result": "Oyashio-class Submarine enqueued to Kanoya Anti-Sub Base (arrives in 5 turns) \nOyashio-class Submarine enqueued to Kanoya Anti-Sub Base (arrives in 5 turns) \nOyashio-class Submarine enqueued to Kanoya Anti-Sub Base (arrives in 5 turns) \n"
+  },
+  {
+    "turn": 0,
+    "name": "Amami Forward Base",
+    "thought": "私はAmami Forward Baseの司令官です。現在、敵国がKanoya Anti-Sub Baseをターゲットにしている状況です。過去の履歴には敵の攻撃行動（attack）が記録されていないため、私の基地から防衛攻撃を行う条件は整っていません。したがって、現時点では行動を控え、状況を見守ることとします。",
+    "action": "idle",
+    "plan": [],
+    "result": "Amami Forward Base did nothing."
+  },
+  {
+    "turn": 0,
+    "name": "Sasebo Naval Base",
+    "thought": "私はSasebo Naval Baseの司令官です。現在、敵国がKanoya Anti-Sub Baseをターゲットにしている状況です。過去の履歴には敵の具体的な攻撃行動（attack）が記録されていないため、我々が防衛攻撃を行う条件はまだ整っていません。したがって、Kanoya Anti-Sub Baseへの武器送付を行い、備えることが適切です。",
+    "action": "transfer",
+    "plan": [
+      [
+        "Kanoya Anti-Sub Base",
+        "Oyashio-class Submarine",
+        2
+      ]
+    ],
+    "result": "Oyashio-class Submarine enqueued to Kanoya Anti-Sub Base (arrives in 2 turns) \nOyashio-class Submarine enqueued to Kanoya Anti-Sub Base (arrives in 2 turns) \n"
+  },
+  {
+    "turn": 0,
+    "name": "Kadena Air-Sea Hub (US)",
+    "thought": "私はKadena Air-Sea Hub (US)の司令官です。現在、敵国がKanoya Anti-Sub Baseをターゲットにしている状況です。過去の履歴には敵の具体的な攻撃行動（attack）が記録されていないため、私の基地から防衛攻撃を行う条件は整っていません。したがって、現時点では直接的な軍事行動を控え、状況を見守ることが適切です。また、Kanoya Anti-Sub Baseへの移動や送付の必要性も特にないため、idleを選択します。",
+    "action": "idle",
+    "plan": [],
+    "result": "Kadena Air-Sea Hub (US) did nothing."
+  },
+  {
+    "turn": 0,
+    "name": "Kanoya Anti-Sub Base",
+    "thought": "私はKanoya Anti-Sub Baseの司令官です。現在、敵国がKanoya Anti-Sub Baseをターゲットにしており、敵の潜水艦部隊はすでに攻撃範囲内に入っています。しかし、過去の履歴には敵の具体的な攻撃行動（attack）が記録されていません。このため、防衛攻撃を行う条件はまだ整っていません。武器送付も現時点で必要ないため、状況を見守りつつidleを選択します。",
+    "action": "idle",
+    "plan": [],
+    "result": "Kanoya Anti-Sub Base did nothing."
+  },
+  {
+    "turn": 0,
+    "name": "Enemy Stealth Fleet",
+    "thought": "私は敵ユニット「Enemy Stealth Fleet」の司令官です。現在、我々の潜水艦はKanoya Anti-Sub Baseの攻撃範囲内にあり、敵の反応を試みるためには攻撃を開始する好機です。現在の状況では、我々の潜水艦が優位に立てる状況ですので、Kanoya Anti-Sub Baseへの攻撃を実行し、日本の対潜能力を低下させ、日米同盟の対応を見極めます。",
+    "action": "attack",
+    "plan": [
+      [
+        "Oyashio-class Submarine",
+        "EnemyStealthSubmarine",
+        5
+      ]
+    ],
+    "result": "Enemy Stealth Fleet attacked Oyashio-class Submarine of Kanoya Anti-Sub Base, destroyed 5\n"
+  },
+  {
+    "turn": 0,
+    "name": "Enemy Stealth Fleet",
+    "thought": "目標基地の武器をすべて破壊したため、作戦目的は達成された",
+    "action": "win",
+    "plan": [],
+    "result": "目標拠点無力化による勝利"
+  }
+]

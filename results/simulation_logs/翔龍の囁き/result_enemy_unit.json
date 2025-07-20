@@ -1,0 +1,32 @@
+{
+  "name": "Chinese Task Force",
+  "location": {
+    "lat": 26.7589,
+    "lon": 127.7681
+  },
+  "target_base": "Kadena Air-Sea Hub (US)",
+  "retreating": true,
+  "current_cost": 192850,
+  "retreat_cost_threshold": 30000,
+  "weapon_stock": {
+    "Chinese Drone": {
+      "total": 10,
+      "destroyed": 0,
+      "active": 10
+    },
+    "Chinese Jet": {
+      "total": 20,
+      "destroyed": 9,
+      "active": 11
+    },
+    "Chinese Submarine": {
+      "total": 5,
+      "destroyed": 2,
+      "active": 3
+    }
+  },
+  "ammo_stock": {
+    "ChineseMissile": 297,
+    "ChineseTorpedo": 96
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Dragon Claw Command Unit",
+  "location": {
+    "lat": 31.0,
+    "lon": 130.5
+  },
+  "target_base": "Kanoya Anti-Sub Base",
+  "retreating": true,
+  "current_cost": 6000,
+  "retreat_cost_threshold": 500000,
+  "weapon_stock": {
+    "Advanced Destroyer": {
+      "total": 3,
+      "destroyed": 0,
+      "active": 3
+    },
+    "StealthJammer": {
+      "total": 2,
+      "destroyed": 0,
+      "active": 2
+    }
+  },
+  "ammo_stock": {
+    "AdvancedTorpedo": 136
+  }
+}

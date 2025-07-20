@@ -1,0 +1,32 @@
+{
+  "name": "Stealth Operations Unit",
+  "location": {
+    "lat": 28.8589,
+    "lon": 128.9953
+  },
+  "target_base": "Amami Forward Base",
+  "retreating": true,
+  "current_cost": 1800,
+  "retreat_cost_threshold": 40000,
+  "weapon_stock": {
+    "Stealth Corvette": {
+      "total": 3,
+      "destroyed": 0,
+      "active": 3
+    },
+    "Fast Recon Boat": {
+      "total": 5,
+      "destroyed": 0,
+      "active": 5
+    },
+    "Signal Jammer": {
+      "total": 2,
+      "destroyed": 0,
+      "active": 2
+    }
+  },
+  "ammo_stock": {
+    "StealthMissile": 38,
+    "LightFlare": 100
+  }
+}

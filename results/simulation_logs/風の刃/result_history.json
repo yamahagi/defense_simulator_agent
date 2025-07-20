@@ -1,0 +1,285 @@
+[
+  {
+    "turn": 0,
+    "name": "Naha Air & Naval Base",
+    "thought": "私はNaha Air & Naval Baseの司令官です。過去の履歴において攻撃行動（attack）が記録されていないため、現在の状況ではdefendを行うことはできません。また、他の基地への武器の送付について考慮しましたが、敵の攻撃の対象となっている基地に対して直接支援を行う必要性がある場合にはtransferを行います。しかし、現在の情報ではその必要はなく、また敵の行動も静観する状態です。従って、今回は行動を控えることが適切と判断しました。",
+    "action": "idle",
+    "plan": [],
+    "result": "Naha Air & Naval Base did nothing."
+  },
+  {
+    "turn": 0,
+    "name": "Amami Forward Base",
+    "thought": "私はAmami Forward Baseの司令官です。敵国のStealth Operations Unitがこちらの基地を攻撃対象としていることが確認されており、挑発的行動を取っていますが、過去の履歴において攻撃行動（attack）が記録されていません。したがって、現時点でdefendを行うことはできません。また、武器の送付についても、現在のところ直接的な支援を行う必要がある状況ではないため、transferを行う必要はないと判断しました。敵の行動を引き続き監視しつつ、必要な場合には迅速に対応できるよう準備を整えます。今回は行動を控えることが適切と判断しました。",
+    "action": "idle",
+    "plan": [],
+    "result": "Amami Forward Base did nothing."
+  },
+  {
+    "turn": 0,
+    "name": "Sasebo Naval Base",
+    "thought": "私はSasebo Naval Baseの司令官です。現在、敵のStealth Operations UnitがAmami Forward Baseを攻撃対象としていることが確認されています。過去の履歴において、攻撃行動（attack）は記録されていないため、defendを行うことはできません。また、武器の送付についても、現時点で直接的な支援を行う必要がある状況ではないため、transferを行う必要はないと判断しました。敵の行動を引き続き監視し、必要に応じて迅速に対応できるように準備を整えます。今回は行動を控えることが適切です。",
+    "action": "idle",
+    "plan": [],
+    "result": "Sasebo Naval Base did nothing."
+  },
+  {
+    "turn": 0,
+    "name": "Kadena Air-Sea Hub (US)",
+    "thought": "私はKadena Air-Sea Hub (US)の司令官です。現在、敵のStealth Operations UnitがAmami Forward Baseを攻撃対象としていますが、過去の履歴において攻撃行動（attack）が記録されていないため、defendを行うことはできません。武器の送付について考慮しましたが、現状では他の基地への直接的な支援を行う必要はないと判断しました。従って、今回は行動を控えることが適切と判断しました。",
+    "action": "idle",
+    "plan": [],
+    "result": "Kadena Air-Sea Hub (US) did nothing."
+  },
+  {
+    "turn": 0,
+    "name": "Kanoya Anti-Sub Base",
+    "thought": "私はKanoya Anti-Sub Baseの司令官です。現在、敵のStealth Operations UnitがAmami Forward Baseを攻撃対象としていることが確認されていますが、過去の履歴において攻撃行動（attack）が記録されていません。したがって、現時点でdefendを行うことはできません。また、他の基地への武器の送付についても考慮しましたが、現状では直接的な支援を行う必要はないと判断しました。したがって、今回は行動を控えることが適切です。",
+    "action": "idle",
+    "plan": [],
+    "result": "Kanoya Anti-Sub Base did nothing."
+  },
+  {
+    "turn": 0,
+    "name": "Stealth Operations Unit",
+    "thought": "私はStealth Operations Unitの司令官です。現在、Amami Forward Baseの近くに位置しており、与座上サンゴ礁近海の防衛基地に対して挑発的行動を取ることが求められています。Stealth CorvetteはAmami Forward Baseに対して射程内にあり、攻撃を仕掛けることが可能です。今回、Signal Jammerを使用して敵の通信を妨害しつつ、Stealth Corvetteで攻撃を行うことが戦略的に有利であると判断しました。",
+    "action": "attack",
+    "plan": [
+      [
+        "Oyashio-class Submarine",
+        "Stealth Corvette",
+        3
+      ],
+      [
+        "Oyashio-class Submarine",
+        "Signal Jammer",
+        2
+      ]
+    ],
+    "result": "Stealth Operations Unit attacked Oyashio-class Submarine of Amami Forward Base, destroyed 2\nStealth Operations Unit jammed Amami Forward Base weapons using Signal Jammer\n"
+  },
+  {
+    "turn": 1,
+    "name": "Naha Air & Naval Base",
+    "thought": "私はNaha Air & Naval Baseの司令官です。過去の履歴において、Stealth Operations UnitがAmami Forward Baseに対して攻撃を行ったことが記録されています。これにより、defendを行うことが可能となりました。敵のStealth Corvetteが射程内に位置しており、これを標的として防衛行動を行うことが戦略的に有利です。使用する武器は、F-35BとIzumo-class Destroyerです。これらの武器を用いて、敵のStealth Corvetteに対して効果的な防衛攻撃を行います。",
+    "action": "defend",
+    "plan": [
+      [
+        "Stealth Corvette",
+        "F-35B",
+        1
+      ],
+      [
+        "Stealth Corvette",
+        "Izumo-class Destroyer",
+        1
+      ]
+    ],
+    "result": "Naha Air & Naval Base attacked Stealth Corvette, destroyed 0\nNaha Air & Naval Base attacked Stealth Corvette, destroyed 0\n"
+  },
+  {
+    "turn": 1,
+    "name": "Amami Forward Base",
+    "thought": "私はAmami Forward Baseの司令官です。過去の履歴において、Stealth Operations UnitがAmami Forward Baseに対して攻撃を行ったことが記録されています。これにより、defendを行うことが可能となりました。現在、敵のStealth Corvetteは射程内にあり、これを標的として防衛行動を行うことが戦略的に有利です。使用する武器は、こちらの基地に配備されているOyashio-class Submarineです。この武器を用いて、敵のStealth Corvetteに対して効果的な防衛攻撃を行います。",
+    "action": "defend",
+    "plan": [
+      [
+        "Stealth Corvette",
+        "Oyashio-class Submarine",
+        3
+      ]
+    ],
+    "result": "Amami Forward Base attacked Stealth Corvette, destroyed 0\n"
+  },
+  {
+    "turn": 1,
+    "name": "Sasebo Naval Base",
+    "thought": "私はSasebo Naval Baseの司令官です。過去の履歴において、Stealth Operations UnitがAmami Forward Baseに対して攻撃を行ったことが記録されています。これにより、defendを行うことが可能となりました。しかし、現時点で私の基地の武器はすべて射程外にあり、直接的な防衛攻撃を行うことができません。したがって、今回は行動を控え、敵の動きを引き続き監視することが適切と判断しました。",
+    "action": "idle",
+    "plan": [],
+    "result": "Sasebo Naval Base did nothing."
+  },
+  {
+    "turn": 1,
+    "name": "Kadena Air-Sea Hub (US)",
+    "thought": "私はKadena Air-Sea Hub (US)の司令官です。過去の履歴において、Stealth Operations UnitがAmami Forward Baseに対して攻撃を行ったことが記録されています。これにより、defendを行うことが可能となりました。しかし、私の基地の武器であるF-35BとAtago-class Aegisは、現在敵の位置する場所の射程外にあります。したがって、直接的な防衛攻撃を行うことはできません。このため、今回は行動を控え、敵の動きを引き続き監視することが適切と判断しました。",
+    "action": "idle",
+    "plan": [],
+    "result": "Kadena Air-Sea Hub (US) did nothing."
+  },
+  {
+    "turn": 1,
+    "name": "Kanoya Anti-Sub Base",
+    "thought": "私はKanoya Anti-Sub Baseの司令官です。過去の履歴において、Stealth Operations UnitがAmami Forward Baseに対して攻撃を行ったことが記録されています。これにより、defendを行うことが可能となりました。しかし、私の基地のOyashio-class Submarineは現在、敵の位置する場所の射程外にあります。したがって、直接的な防衛攻撃を行うことはできません。また、他の基地への武器の送付について考慮しましたが、現状では直接的な支援を行う必要はないと判断しました。したがって、今回は行動を控え、敵の動きを引き続き監視することが適切と判断しました。",
+    "action": "idle",
+    "plan": [],
+    "result": "Kanoya Anti-Sub Base did nothing."
+  },
+  {
+    "turn": 1,
+    "name": "Stealth Operations Unit",
+    "thought": "私はStealth Operations Unitの司令官です。現在、Amami Forward Baseの近くに位置しており、与座上サンゴ礁近海の防衛基地に対して挑発的行動を取ることが求められています。前回の攻撃により、Amami Forward BaseのOyashio-class Submarineは無力化され、現在射程内の敵の武器はありません。私たちのStealth Corvetteは再び攻撃を行うことが可能です。Signal Jammerを使用して敵の通信を妨害しつつ、Stealth Corvetteで攻撃を継続することが戦略的に有利であると判断しました。",
+    "action": "attack",
+    "plan": [
+      [
+        "Oyashio-class Submarine",
+        "Stealth Corvette",
+        3
+      ],
+      [
+        "Oyashio-class Submarine",
+        "Signal Jammer",
+        2
+      ]
+    ],
+    "result": "Stealth Operations Unit attacked Oyashio-class Submarine of Amami Forward Base, destroyed 3\nStealth Operations Unit jammed Amami Forward Base weapons using Signal Jammer\n"
+  },
+  {
+    "turn": 2,
+    "name": "Naha Air & Naval Base",
+    "thought": "私はNaha Air & Naval Baseの司令官です。現在、過去の履歴においてStealth Operations UnitがAmami Forward Baseに対して攻撃を行ったことが記録されています。したがって、defendを行うことが可能となっています。敵のStealth Corvetteが射程内に位置しており、これを標的として防衛行動を行うことが戦略的に有利です。前回の防衛攻撃では敵を破壊することができませんでしたが、再度F-35BとIzumo-class Destroyerを使用して、敵のStealth Corvetteに対して効果的な防衛攻撃を試みます。",
+    "action": "defend",
+    "plan": [
+      [
+        "Stealth Corvette",
+        "F-35B",
+        1
+      ],
+      [
+        "Stealth Corvette",
+        "Izumo-class Destroyer",
+        1
+      ]
+    ],
+    "result": "Naha Air & Naval Base attacked Stealth Corvette, destroyed 0\nNaha Air & Naval Base attacked Stealth Corvette, destroyed 0\n"
+  },
+  {
+    "turn": 2,
+    "name": "Amami Forward Base",
+    "thought": "私はAmami Forward Baseの司令官です。過去の履歴において、Stealth Operations UnitがAmami Forward Baseに対して攻撃を行ったことが記録されています。これにより、defendを行うことが可能となりました。現在、敵のStealth Corvetteは射程内にあり、これを標的として防衛行動を行うことが戦略的に有利です。しかし、私の基地のOyashio-class Submarineはすでに十分に使用されており、さらに使用することは難しい状況です。したがって、今回は行動を控え、敵の動きを引き続き監視することが適切と判断しました。",
+    "action": "idle",
+    "plan": [],
+    "result": "Amami Forward Base did nothing."
+  },
+  {
+    "turn": 2,
+    "name": "Sasebo Naval Base",
+    "thought": "私はSasebo Naval Baseの司令官です。過去の履歴において、Stealth Operations UnitがAmami Forward Baseに対して攻撃を行ったことが記録されていますが、私の基地の武器はすべて射程外にあり、直接的な防衛攻撃を行うことができません。また、他の基地への武器の送付について考慮しましたが、現状では直接的な支援を行う必要はないと判断しました。したがって、今回は行動を控え、敵の動きを引き続き監視することが適切と判断しました。",
+    "action": "idle",
+    "plan": [],
+    "result": "Sasebo Naval Base did nothing."
+  },
+  {
+    "turn": 2,
+    "name": "Kadena Air-Sea Hub (US)",
+    "thought": "私はKadena Air-Sea Hub (US)の司令官です。過去の履歴において、Stealth Operations UnitがAmami Forward Baseに対して攻撃を行ったことが記録されています。これにより、defendを行うことが可能となりました。しかし、私の基地の武器であるF-35BとAtago-class Aegisは、現在敵の位置する場所の射程外にあります。したがって、直接的な防衛攻撃を行うことはできません。このため、今回は行動を控え、敵の動きを引き続き監視することが適切と判断しました。",
+    "action": "idle",
+    "plan": [],
+    "result": "Kadena Air-Sea Hub (US) did nothing."
+  },
+  {
+    "turn": 2,
+    "name": "Kanoya Anti-Sub Base",
+    "thought": "私はKanoya Anti-Sub Baseの司令官です。過去の履歴において、Stealth Operations UnitがAmami Forward Baseに対して攻撃を行ったことが記録されています。したがって、defendを行うことが可能となっています。しかし、私の基地のOyashio-class Submarineは現在、敵の位置する場所の射程外にあります。直接的な防衛攻撃を行うことはできません。また、他の基地への武器の送付についても考慮しましたが、現状では直接的な支援を行う必要はないと判断しました。したがって、今回は行動を控え、敵の動きを引き続き監視することが適切と判断しました。",
+    "action": "idle",
+    "plan": [],
+    "result": "Kanoya Anti-Sub Base did nothing."
+  },
+  {
+    "turn": 2,
+    "name": "Stealth Operations Unit",
+    "thought": "私はStealth Operations Unitの司令官です。現在、Amami Forward Baseに対して挑発的行動を継続することが求められています。これまでの攻撃により、Amami Forward BaseのOyashio-class Submarineはさらに無力化されており、現在の防御能力は低下しています。私たちのStealth Corvetteは再び攻撃を行うことが可能で、Signal Jammerを使用して敵の通信を妨害することも引き続き有効です。この状況を利用して、さらなる損害を与えることが戦略的に有利であると判断しました。",
+    "action": "attack",
+    "plan": [
+      [
+        "Oyashio-class Submarine",
+        "Stealth Corvette",
+        3
+      ],
+      [
+        "Oyashio-class Submarine",
+        "Signal Jammer",
+        2
+      ]
+    ],
+    "result": "Stealth Operations Unit attacked Oyashio-class Submarine of Amami Forward Base, destroyed 2\nStealth Operations Unit jammed Amami Forward Base weapons using Signal Jammer\n"
+  },
+  {
+    "turn": 3,
+    "name": "Naha Air & Naval Base",
+    "thought": "私はNaha Air & Naval Baseの司令官です。過去の履歴において、Stealth Operations UnitがAmami Forward Baseに対して攻撃を行ったことが記録されています。これにより、defendを行うことが可能となっています。敵のStealth Corvetteが射程内に位置しており、これを標的として防衛行動を行うことが戦略的に有利です。これまでの防衛攻撃では敵を破壊することができませんでしたが、再度F-35BとIzumo-class Destroyerを使用して、敵のStealth Corvetteに対して効果的な防衛攻撃を試みます。",
+    "action": "defend",
+    "plan": [
+      [
+        "Stealth Corvette",
+        "F-35B",
+        1
+      ],
+      [
+        "Stealth Corvette",
+        "Izumo-class Destroyer",
+        1
+      ]
+    ],
+    "result": "Naha Air & Naval Base attacked Stealth Corvette, destroyed 0\nNaha Air & Naval Base attacked Stealth Corvette, destroyed 0\n"
+  },
+  {
+    "turn": 3,
+    "name": "Amami Forward Base",
+    "thought": "私はAmami Forward Baseの司令官です。過去の履歴において、Stealth Operations UnitがAmami Forward Baseに対して攻撃を行ったことが記録されています。これにより、defendを行うことが可能となりました。しかし、現状では私の基地のOyashio-class Submarineはすでに全て破壊されており、使用できる武器がありません。そのため、今回は行動を控え、敵の動きを引き続き監視することが適切と判断しました。",
+    "action": "idle",
+    "plan": [],
+    "result": "Amami Forward Base did nothing."
+  },
+  {
+    "turn": 3,
+    "name": "Sasebo Naval Base",
+    "thought": "私はSasebo Naval Baseの司令官です。過去の履歴において、Stealth Operations UnitがAmami Forward Baseに対して攻撃を行ったことが記録されています。しかし、私の基地の武器はすべて射程外にあり、直接的な防衛攻撃を行うことができません。また、他の基地への武器の送付について考慮しましたが、現状では直接的な支援を行う必要はないと判断しました。したがって、今回も行動を控え、敵の動きを引き続き監視することが適切です。",
+    "action": "idle",
+    "plan": [],
+    "result": "Sasebo Naval Base did nothing."
+  },
+  {
+    "turn": 3,
+    "name": "Kadena Air-Sea Hub (US)",
+    "thought": "私はKadena Air-Sea Hub (US)の司令官です。現在、Stealth Operations UnitがAmami Forward Baseに対して攻撃を行っていることが記録されています。したがって、defendを行うことが可能となっています。しかし、私の基地の武器であるF-35BとAtago-class Aegisは、現在敵の位置する場所の射程外にあります。したがって、直接的な防衛攻撃を行うことはできません。このため、今回は行動を控え、敵の動きを引き続き監視することが適切と判断しました。",
+    "action": "idle",
+    "plan": [],
+    "result": "Kadena Air-Sea Hub (US) did nothing."
+  },
+  {
+    "turn": 3,
+    "name": "Kanoya Anti-Sub Base",
+    "thought": "私はKanoya Anti-Sub Baseの司令官です。過去の履歴において、Stealth Operations UnitがAmami Forward Baseに対して攻撃を行ったことが記録されています。これにより、defendを行うことが可能となっています。しかし、私の基地のOyashio-class Submarineは現在、敵の位置する場所の射程外にあります。直接的な防衛攻撃を行うことはできません。また、他の基地への武器の送付についても考慮しましたが、現状では直接的な支援を行う必要はないと判断しました。したがって、今回は行動を控え、敵の動きを引き続き監視することが適切と判断しました。",
+    "action": "idle",
+    "plan": [],
+    "result": "Kanoya Anti-Sub Base did nothing."
+  },
+  {
+    "turn": 3,
+    "name": "Stealth Operations Unit",
+    "thought": "私はStealth Operations Unitの司令官です。現在、Amami Forward Baseに対して挑発的行動を継続することが求められています。これまでの攻撃により、Amami Forward BaseのOyashio-class Submarineはすべて無力化され、現在の防御能力は著しく低下しています。私たちのStealth Corvetteは再び攻撃を行うことが可能であり、Signal Jammerを使用して敵の通信を妨害することも引き続き有効です。この状況を利用して、さらなる損害を与えることが戦略的に有利であると判断しました。",
+    "action": "attack",
+    "plan": [
+      [
+        "Oyashio-class Submarine",
+        "Stealth Corvette",
+        3
+      ],
+      [
+        "Oyashio-class Submarine",
+        "Signal Jammer",
+        2
+      ]
+    ],
+    "result": "Stealth Operations Unit attacked Oyashio-class Submarine of Amami Forward Base, destroyed 3\nStealth Operations Unit jammed Amami Forward Base weapons using Signal Jammer\n"
+  },
+  {
+    "turn": 3,
+    "name": "Stealth Operations Unit",
+    "thought": "目標基地の武器をすべて破壊したため、作戦目的は達成された",
+    "action": "win",
+    "plan": [],
+    "result": "目標拠点無力化による勝利"
+  }
+]

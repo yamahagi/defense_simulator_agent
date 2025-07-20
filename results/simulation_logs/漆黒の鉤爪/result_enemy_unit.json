@@ -1,0 +1,27 @@
+{
+  "name": "Black Claw",
+  "location": {
+    "lat": 33.1,
+    "lon": 129.6
+  },
+  "target_base": "Sasebo Naval Base",
+  "retreating": false,
+  "current_cost": 230440,
+  "retreat_cost_threshold": 800000,
+  "weapon_stock": {
+    "Stealth Bomber": {
+      "total": 5,
+      "destroyed": 0,
+      "active": 5
+    },
+    "Silent Submarine": {
+      "total": 3,
+      "destroyed": 3,
+      "active": 0
+    }
+  },
+  "ammo_stock": {
+    "CruiseMissile": 0,
+    "StealthTorpedo": 13
+  }
+}

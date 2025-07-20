@@ -1,0 +1,27 @@
+{
+  "name": "Enemy Task Force",
+  "location": {
+    "lat": 32.5,
+    "lon": 129.5
+  },
+  "target_base": "Sasebo Naval Base",
+  "retreating": true,
+  "current_cost": 325560,
+  "retreat_cost_threshold": 500000,
+  "weapon_stock": {
+    "Enemy Destroyer": {
+      "total": 8,
+      "destroyed": 0,
+      "active": 8
+    },
+    "Enemy Submarine": {
+      "total": 10,
+      "destroyed": 5,
+      "active": 5
+    }
+  },
+  "ammo_stock": {
+    "EnemyLongRangeMissile": 262,
+    "EnemyTorpedo": 246
+  }
+}

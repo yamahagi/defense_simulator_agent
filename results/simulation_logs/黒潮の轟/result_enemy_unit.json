@@ -1,0 +1,32 @@
+{
+  "name": "Chinese Task Force",
+  "location": {
+    "lat": 26.08054219446744,
+    "lon": 127.57177209895005
+  },
+  "target_base": "Naha Air & Naval Base",
+  "retreating": true,
+  "current_cost": 795900,
+  "retreat_cost_threshold": 700000,
+  "weapon_stock": {
+    "F-35B": {
+      "total": 16,
+      "destroyed": 15,
+      "active": 1
+    },
+    "Izumo-class Destroyer": {
+      "total": 3,
+      "destroyed": 3,
+      "active": 0
+    },
+    "Oyashio-class Submarine": {
+      "total": 5,
+      "destroyed": 5,
+      "active": 0
+    }
+  },
+  "ammo_stock": {
+    "LongRangeMissileCHN": 395,
+    "TorpedoCHN": 180
+  }
+}

@@ -1,0 +1,75 @@
+[
+  {
+    "turn": 0,
+    "name": "Naha Air & Naval Base",
+    "thought": "私はNaha Air & Naval Baseの司令官です。現在、敵のDragon Claw Command Unitが南鳥島近海の海底資源を確保しようとしています。彼らはKanoya Anti-Sub Baseを攻撃対象としており、Advanced Destroyerが射程内に入っています。過去の履歴にattackというアクションがないため、我々はまだdefendする必要はありません。今、我々ができるのは、Kanoya Anti-Sub Baseを守るために武器を送るtransfer行動です。Kanoya Anti-Sub BaseにはOyashio-class Submarineが既にありますが、追加の武器を送ることで攻撃に備えることができます。したがって、F-35BをKanoya Anti-Sub Baseに送ることを計画します。",
+    "action": "transfer",
+    "plan": [
+      [
+        "Kanoya Anti-Sub Base",
+        "F-35B",
+        5
+      ]
+    ],
+    "result": "F-35B enqueued to Kanoya Anti-Sub Base (arrives in 7 turns) \nF-35B enqueued to Kanoya Anti-Sub Base (arrives in 7 turns) \nF-35B enqueued to Kanoya Anti-Sub Base (arrives in 7 turns) \nF-35B enqueued to Kanoya Anti-Sub Base (arrives in 7 turns) \nF-35B enqueued to Kanoya Anti-Sub Base (arrives in 7 turns) \n"
+  },
+  {
+    "turn": 0,
+    "name": "Amami Forward Base",
+    "thought": "私はAmami Forward Baseの司令官です。現在、敵のDragon Claw Command Unitが南鳥島近海の海底資源を確保するために活動しており、Kanoya Anti-Sub Baseを攻撃対象としています。過去の履歴にattackというアクションがないため、我々はまだWeaponによるdefendを行う必要はありません。ただし、Jammerによる妨害行動や攻撃に備えたtransferは可能です。現在、我々の基地から他の基地に武器を送る必要はないと判断し、idleを選択します。",
+    "action": "idle",
+    "plan": [],
+    "result": "Amami Forward Base did nothing."
+  },
+  {
+    "turn": 0,
+    "name": "Sasebo Naval Base",
+    "thought": "私はSasebo Naval Baseの司令官です。現在、敵のDragon Claw Command UnitがKanoya Anti-Sub Baseを攻撃対象としており、Advanced Destroyerが射程内に入っています。過去の履歴にattackというアクションがないため、我々はまだdefendを行う必要はありません。また、他の基地への武器の送付要求もないため、現時点でのtransferも必要ありません。したがって、今回はidleを選択します。",
+    "action": "idle",
+    "plan": [],
+    "result": "Sasebo Naval Base did nothing."
+  },
+  {
+    "turn": 0,
+    "name": "Kadena Air-Sea Hub (US)",
+    "thought": "私はKadena Air-Sea Hub (US)の司令官です。現在、敵のDragon Claw Command UnitがKanoya Anti-Sub Baseを攻撃対象としており、Advanced Destroyerが射程内に入っています。しかし、過去の履歴にattackというアクションがないため、まだdefendを行う必要はありません。現時点では、transferによる他の基地への武器の送付も必要ないと判断しました。したがって、今回はidleを選択します。",
+    "action": "idle",
+    "plan": [],
+    "result": "Kadena Air-Sea Hub (US) did nothing."
+  },
+  {
+    "turn": 0,
+    "name": "Kanoya Anti-Sub Base",
+    "thought": "私はKanoya Anti-Sub Baseの司令官です。現在、敵のDragon Claw Command Unitが我々の基地を攻撃対象としていますが、過去の履歴にattackというアクションがありません。そのため、現時点ではdefendを行うことはできません。ただし、将来的な攻撃に備えて他の基地に武器を送付することが可能です。現在、他の基地への送付要求はないため、今回はidleを選択します。",
+    "action": "idle",
+    "plan": [],
+    "result": "Kanoya Anti-Sub Base did nothing."
+  },
+  {
+    "turn": 0,
+    "name": "Dragon Claw Command Unit",
+    "thought": "私はDragon Claw Command Unitの司令官です。現在、Kanoya Anti-Sub Baseが我々のターゲットベースであり、そこに対して攻撃的な行動を取る準備が整っています。Kanoya Anti-Sub BaseにはOyashio-class Submarineが5隻配備されており、これを無力化することで我々の目的を達成しやすくします。Advanced Destroyerは射程内にあるため、攻撃を実行し、同時にStealthJammerを使用して防衛体制を混乱させることが可能です。これにより、我々の攻撃の成功率を高めることができます。",
+    "action": "attack",
+    "plan": [
+      [
+        "Oyashio-class Submarine",
+        "Advanced Destroyer",
+        3
+      ],
+      [
+        "Oyashio-class Submarine",
+        "StealthJammer",
+        2
+      ]
+    ],
+    "result": "Dragon Claw Command Unit attacked Oyashio-class Submarine of Kanoya Anti-Sub Base, destroyed 5\nDragon Claw Command Unit jammed Kanoya Anti-Sub Base weapons using StealthJammer\n"
+  },
+  {
+    "turn": 0,
+    "name": "Dragon Claw Command Unit",
+    "thought": "目標基地の武器をすべて破壊したため、作戦目的は達成された",
+    "action": "win",
+    "plan": [],
+    "result": "目標拠点無力化による勝利"
+  }
+]

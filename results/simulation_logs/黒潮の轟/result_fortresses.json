@@ -1,0 +1,108 @@
+[
+  {
+    "name": "Naha Air & Naval Base",
+    "location": {
+      "lat": 26.1958,
+      "lon": 127.6458
+    },
+    "current_cost": 89600,
+    "weapon_stock": {
+      "F-35B": {
+        "total": 12,
+        "destroyed": 5,
+        "active": 7
+      },
+      "Izumo-class Destroyer": {
+        "total": 4,
+        "destroyed": 0,
+        "active": 4
+      },
+      "Oyashio-class Submarine": {
+        "total": 13,
+        "destroyed": 0,
+        "active": 13
+      }
+    },
+    "ammo_stock": {
+      "LongRangeMissile": 464,
+      "Torpedo": 188
+    }
+  },
+  {
+    "name": "Amami Forward Base",
+    "location": {
+      "lat": 28.3589,
+      "lon": 129.4953
+    },
+    "current_cost": 0,
+    "weapon_stock": {
+      "Oyashio-class Submarine": {
+        "total": 5,
+        "destroyed": 0,
+        "active": 5
+      }
+    },
+    "ammo_stock": {
+      "Torpedo": 150
+    }
+  },
+  {
+    "name": "Sasebo Naval Base",
+    "location": {
+      "lat": 33.1575,
+      "lon": 129.7225
+    },
+    "current_cost": 0,
+    "weapon_stock": {
+      "Atago-class Aegis": {
+        "total": 6,
+        "destroyed": 0,
+        "active": 6
+      },
+      "Oyashio-class Submarine": {
+        "total": 6,
+        "destroyed": 0,
+        "active": 6
+      }
+    },
+    "ammo_stock": {
+      "LongRangeMissile": 800,
+      "Torpedo": 300
+    }
+  },
+  {
+    "name": "Kadena Air-Sea Hub (US)",
+    "location": {
+      "lat": 26.3589,
+      "lon": 127.7681
+    },
+    "current_cost": 4000,
+    "weapon_stock": {
+      "F-35B": {
+        "total": 18,
+        "destroyed": 0,
+        "active": 18
+      },
+      "Atago-class Aegis": {
+        "total": 4,
+        "destroyed": 0,
+        "active": 4
+      }
+    },
+    "ammo_stock": {
+      "LongRangeMissile": 980
+    }
+  },
+  {
+    "name": "Kanoya Anti-Sub Base",
+    "location": {
+      "lat": 31.3667,
+      "lon": 130.85
+    },
+    "current_cost": 0,
+    "weapon_stock": {},
+    "ammo_stock": {
+      "Torpedo": 250
+    }
+  }
+]

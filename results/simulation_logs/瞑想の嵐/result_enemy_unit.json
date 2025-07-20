@@ -1,0 +1,27 @@
+{
+  "name": "Enemy Fleet Unit",
+  "location": {
+    "lat": 26.92283826406654,
+    "lon": 128.42560433043184
+  },
+  "target_base": "Kadena Air-Sea Hub (US)",
+  "retreating": true,
+  "current_cost": 377760,
+  "retreat_cost_threshold": 450000,
+  "weapon_stock": {
+    "Enemy Destroyer": {
+      "total": 2,
+      "destroyed": 2,
+      "active": 0
+    },
+    "Enemy Submarine": {
+      "total": 3,
+      "destroyed": 3,
+      "active": 0
+    }
+  },
+  "ammo_stock": {
+    "EnemyLongRangeMissile": 392,
+    "EnemyTorpedo": 198
+  }
+}
