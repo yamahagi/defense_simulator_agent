@@ -38,7 +38,7 @@ cd defense-simulation-agent
 pip install -r requirements.txt
 ```
 
-## 実行手順
+## 💻 実行手順
 
 ```bash
 export OPENAI_API_KEY = <YOUR OPENAI KEY>
@@ -50,7 +50,7 @@ python src/analysis_simulation_result.py
 python src/meta_review.py
 ```
 
-## 出力ディレクトリ構成
+## 📂 出力ディレクトリ構成
 
 ```bash
 results/
